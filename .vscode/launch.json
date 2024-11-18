@@ -1,0 +1,25 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "check_animation",
+			"request": "launch",
+			"type": "dart",
+			"program": "example/example.dart"
+		},
+		{
+			"name": "check_animation (profile mode)",
+			"request": "launch",
+			"type": "dart",
+			"flutterMode": "profile",
+			"program": "example/example.dart"
+		},
+		{
+			"name": "check_animation (release mode)",
+			"request": "launch",
+			"type": "dart",
+			"flutterMode": "release",
+			"program": "example/example.dart"
+		}
+	]
+}

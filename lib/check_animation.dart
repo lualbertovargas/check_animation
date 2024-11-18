@@ -1,7 +1,5 @@
 library check_animation;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'animation/screen/check_animation_screen.dart';
+export 'animation/widget/custom_upload_widget.dart';
+export 'colors/colors.dart';
