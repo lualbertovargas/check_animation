@@ -1,6 +1,6 @@
 name: check_animation
 description: "A Flutter package for customizable animations."
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/lualbertovargas/check_animation
 
 environment:

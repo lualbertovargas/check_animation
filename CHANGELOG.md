@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.0.3
+- Improved package description in README.md for better clarity and understanding.
+
 ## 0.0.2
 - Improved package description in README.md.
 - Added vector_math dependency in pubspec.yaml.

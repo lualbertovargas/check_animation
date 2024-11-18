@@ -75,7 +75,7 @@ class HomeScreen extends StatelessWidget {
 
 ## Additional information
 
-For more information, check the [documentation](https://flutter.dev/docs) or visit the [GitHub repository](https://github.com/yourusername/check_animation).
+For more information, check the [documentation](https://flutter.dev/docs) or visit the [GitHub repository](https://github.com/lualbertovargas/check_animation).
 
 ## Changelog
 
