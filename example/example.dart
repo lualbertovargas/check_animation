@@ -19,7 +19,16 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Home')),
+      appBar: AppBar(
+        title: const Text(
+          'Home',
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+        backgroundColor: Colors.white,
+      ),
+      backgroundColor: Colors.white,
       body: Center(
         child: ElevatedButton(
           onPressed: () {
@@ -36,7 +45,16 @@ class HomeScreen extends StatelessWidget {
               ),
             );
           },
-          child: Text('Go to Animation'),
+          style: ElevatedButton.styleFrom(
+            backgroundColor: Colors.black87,
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(20.0),
+            ),
+          ),
+          child: const Text(
+            'Go to Animation',
+            style: TextStyle(color: Colors.white),
+          ),
         ),
       ),
     );
